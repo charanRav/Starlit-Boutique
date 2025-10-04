@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Starlit Boutique</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Starlit Boutique</h1>
+  <div class="container">
+    <div class="panel">
+      <p><b>Drag an outfit/accessory to style your model for the event!</b></p>
+      <div id="items"></div>
+      <button onclick="newTheme()">New Theme</button>
+      <button onclick="clearSlot()">Clear</button>
+      <p>Theme: <span class="theme" id="theme"></span></p>
+      <p>Score: <span id="score">0</span></p>
+    </div>
+    <div class="model">
+      <div id="dropzone" class="dropzone">Drop Outfit Here</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
